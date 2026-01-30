@@ -5,6 +5,42 @@
 INSERT INTO institutions (name, slug, description, industry, headquarters_country, year_founded, sustainability_goals)
 VALUES
   (
+    'Vignan''s Institute of Information Technology',
+    'vignan-iit',
+    'Leading technical university focused on sustainable education and operations',
+    'Education',
+    'India',
+    2006,
+    ARRAY['Campus carbon neutrality', 'Renewable energy adoption', 'Green campus initiatives']
+  ),
+  (
+    'Acharya University (AU)',
+    'acharya-university',
+    'Premier university committed to environmental sustainability and eco-friendly practices',
+    'Education',
+    'India',
+    2010,
+    ARRAY['Sustainable campus development', 'Energy efficiency', 'Waste management']
+  ),
+  (
+    'Raghu University',
+    'raghu-university',
+    'Educational institution dedicated to sustainable development and green initiatives',
+    'Education',
+    'India',
+    1996,
+    ARRAY['Renewable energy transition', 'Water conservation', 'Environmental awareness']
+  ),
+  (
+    'GITAM University',
+    'gitam-university',
+    'Prestigious university advancing sustainability through education and research',
+    'Education',
+    'India',
+    1980,
+    ARRAY['Net-zero campus goals', 'Solar energy integration', 'Circular economy practices']
+  ),
+  (
     'Global Tech Corporation',
     'global-tech-corp',
     'Leading technology company committed to net-zero emissions by 2030',
